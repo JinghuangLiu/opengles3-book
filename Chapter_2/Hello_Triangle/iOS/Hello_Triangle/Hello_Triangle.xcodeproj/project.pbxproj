@@ -153,10 +153,10 @@
 			children = (
 				7626528517F10FAD007CCD43 /* Hello_Triangle.c */,
 				7626528717F110A5007CCD43 /* esUtil.h */,
+				7626527817F10EE6007CCD43 /* esUtil.c */,
 				7626527517F10EE6007CCD43 /* esShader.c */,
 				7626527617F10EE6007CCD43 /* esShapes.c */,
 				7626527717F10EE6007CCD43 /* esTransform.c */,
-				7626527817F10EE6007CCD43 /* esUtil.c */,
 				7625BC3617F32A780019C421 /* iOS */,
 				7626524B17F10E6C007CCD43 /* Main_iPhone.storyboard */,
 				7626524E17F10E6C007CCD43 /* Main_iPad.storyboard */,
@@ -241,6 +241,9 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Daniel Ginsburg";
 				TargetAttributes = {
+					7626523117F10E6C007CCD43 = {
+						DevelopmentTeam = 97DW55HLWV;
+					};
 					7626525D17F10E6C007CCD43 = {
 						TestTargetID = 7626523117F10E6C007CCD43;
 					};
@@ -251,6 +254,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -437,9 +441,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = 97DW55HLWV;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Hello_Triangle/Hello_Triangle-Prefix.pch";
 				INFOPLIST_FILE = "Hello_Triangle/Hello_Triangle-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				OTHER_LDFLAGS = "-ld_classic";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				USER_HEADER_SEARCH_PATHS = ../../../../Common/Include;
 				WRAPPER_EXTENSION = app;
@@ -451,9 +458,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = 97DW55HLWV;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Hello_Triangle/Hello_Triangle-Prefix.pch";
 				INFOPLIST_FILE = "Hello_Triangle/Hello_Triangle-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				OTHER_LDFLAGS = "-ld_classic";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				USER_HEADER_SEARCH_PATHS = ../../../../Common/Include;
 				WRAPPER_EXTENSION = app;

@@ -247,6 +247,9 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Daniel Ginsburg";
 				TargetAttributes = {
+					762F293517F263A2003C92E4 = {
+						DevelopmentTeam = 97DW55HLWV;
+					};
 					762F296117F263A2003C92E4 = {
 						TestTargetID = 762F293517F263A2003C92E4;
 					};
@@ -254,7 +257,7 @@
 			};
 			buildConfigurationList = 762F293117F263A2003C92E4 /* Build configuration list for PBXProject "MultiTexture" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
@@ -445,9 +448,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = 97DW55HLWV;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MultiTexture/MultiTexture-Prefix.pch";
 				INFOPLIST_FILE = "MultiTexture/MultiTexture-Info.plist";
+				OTHER_LDFLAGS = "-ld_classic";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				USER_HEADER_SEARCH_PATHS = ../../../../Common/Include;
 				WRAPPER_EXTENSION = app;
@@ -459,9 +464,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = 97DW55HLWV;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MultiTexture/MultiTexture-Prefix.pch";
 				INFOPLIST_FILE = "MultiTexture/MultiTexture-Info.plist";
+				OTHER_LDFLAGS = "-ld_classic";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				USER_HEADER_SEARCH_PATHS = ../../../../Common/Include;
 				WRAPPER_EXTENSION = app;
@@ -529,6 +536,7 @@
 				762F297517F263A2003C92E4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		762F297617F263A2003C92E4 /* Build configuration list for PBXNativeTarget "MultiTextureTests" */ = {
 			isa = XCConfigurationList;
@@ -537,6 +545,7 @@
 				762F297817F263A2003C92E4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
