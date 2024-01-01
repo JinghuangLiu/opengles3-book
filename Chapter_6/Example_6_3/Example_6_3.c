@@ -110,6 +110,7 @@ void Draw ( ESContext *esContext )
 
    glUseProgram ( userData->programObject );
 
+   //使用glVertexAttribPointer函数告诉OpenGL该如何解析顶点数据（应用到逐个顶点属性上）
    glVertexAttribPointer ( 0, 3, GL_FLOAT, GL_FALSE, 0, vertexPos );
    glEnableVertexAttribArray ( 0 );
    glVertexAttrib4fv ( 1, color );
